@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #b30000; /* Red Theme */
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header .logo {
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.content h2 {
+  color: #b30000; /* Heading in Red */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #b30000; /* Footer in Red */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.buy-link {
+  position: fixed;
+  top: 10px; /* Adjusts the distance from the top of the screen */
+  right: 10px; /* Adjusts the distance from the right side of the screen */
+  background-color: #28a745; /* Green color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Adds padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Removes underline */
+  font-weight: bold; /* Makes text bold */
+  transition: background-color 0.3s ease; /* Smooth transition for color change */
+}
+
+.buy-link:hover {
+  background-color: #218838; /* Dimmer green when hovered */
+}
